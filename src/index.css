@@ -1,0 +1,26 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  -o-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  49% {
+    color: #e50000;
+    background-color: #ffffff;
+  }
+
+  50%,
+  100% {
+    color: #ffffff;
+    background-color: #e50000;
+  }
+}
