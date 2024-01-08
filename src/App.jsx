@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{textAlign: 'center'}}>ROKET</h1>
+      <h1 className="text-center">ROKET</h1>
       <img src={roket} />
     </>
   )
